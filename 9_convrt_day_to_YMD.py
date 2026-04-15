@@ -1,0 +1,5 @@
+days = int(input("Enter the days = "))
+year = int(days/365)
+month = int(days/30.4)
+days = int(days % 30.4)
+print(f"the total is in format (year/month/days) = ({year}/{month}/{days})")
